@@ -2073,7 +2073,7 @@ input, select, textarea {
 				border-radius: 0.35em;
 				border: solid 3px rgba(255, 255, 255, 0.5);
 				color: #fff;
-				content: 'View';
+				content: 'visit';
 				display: inline-block;
 				font-size: 0.8em;
 				font-weight: 400;
@@ -2242,7 +2242,7 @@ input, select, textarea {
 
 /* Actions */
 
-	ul.actions {
+	/* ul.actions {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
@@ -2360,7 +2360,7 @@ input, select, textarea {
 							margin-left: -0.5em;
 						}
 
-		}
+		} */
 
 /* Table */
 
@@ -2432,7 +2432,7 @@ input, select, textarea {
 
 /* Button */
 
-	input[type="submit"],
+	/* input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
 	.button {
@@ -2550,12 +2550,14 @@ input, select, textarea {
 			border-color: #e7e7e7 !important;
 			color: #b2b2b2 !important;
 			cursor: default;
-		}
+		} */
 
 /* Work Item */
 
 	.work-item {
 		margin: 0 0 2em 0;
+		position: relative;
+		z-index: 1;
 	}
 
 		.work-item .image {
@@ -2703,7 +2705,7 @@ input, select, textarea {
 
 /* Poptrox */
 
-	@-moz-keyframes spin {
+	/* @-moz-keyframes spin {
 		0% {
 			-moz-transform: rotate(0deg);
 			-webkit-transform: rotate(0deg);
@@ -2765,9 +2767,9 @@ input, select, textarea {
 			-ms-transform: rotate(360deg);
 			transform: rotate(360deg);
 		}
-	}
+	} */
 
-	.poptrox-popup {
+	/* .poptrox-popup {
 		-moz-box-sizing: content-box;
 		-webkit-box-sizing: content-box;
 		-ms-box-sizing: content-box;
@@ -2956,7 +2958,7 @@ input, select, textarea {
 
 			.poptrox-popup:hover .closer:hover {
 				opacity: 1.0;
-			}
+			} */
 
 /* Touch */
 
@@ -2972,12 +2974,12 @@ input, select, textarea {
 		background-attachment: scroll;
 		background-size: auto, cover;
 	}
-
+/* 
 	body.is-touch .poptrox-popup .nav-next,
 	body.is-touch .poptrox-popup .nav-previous,
 	body.is-touch .poptrox-popup .closer {
 		opacity: 1.0 !important;
-	}
+	} */
 
 /* XLarge */
 
@@ -3184,14 +3186,14 @@ input, select, textarea {
 
 		/* Poptrox */
 
-			.poptrox-popup {
+			/* .poptrox-popup {
 				border-radius: 0;
 			}
 
 				.poptrox-popup .nav-next:before,
 				.poptrox-popup .nav-previous:before {
 					margin-top: -1em;
-				}
+				} */
 
 	}
 
@@ -3227,4 +3229,13 @@ input, select, textarea {
 
 .signature {
 	width: 150px;
+}
+
+#main {
+	background-color: #1F1916;
+}
+
+.link {
+	position: absolute;
+	z-index: 2;
 }
